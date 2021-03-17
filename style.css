@@ -1,0 +1,504 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 960px;
+    width: 80%;
+    margin: auto;
+}
+
+
+/**********header area***************/
+
+.header-area{
+    background: #87509c;
+    padding: 50px 0;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.header-menu{
+    clear: both;
+}
+
+.header-menu ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+}
+.header-menu ul li {
+float: left;
+margin-left: 15px;
+    
+}
+
+
+.header-menu ul li a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+   
+    padding: 7px 10px
+}
+
+.header-menu ul .active a,
+.header-menu ul li:hover a{
+    background: #643a79;
+}
+
+
+.header-title{
+ overflow: hidden;
+width: 100%;
+padding: 50px 0;
+}
+.header-title p{
+    font-size: 32px;
+}
+
+.btn{
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 20px 0 40px;
+    transition: .5s;
+
+    
+}
+.header-title .btn{
+    background: #eb7d4b;
+    border-bottom: 2px solid #c86a40;
+ 
+
+}
+.header-title .btn:hover{
+    background: #c86a40;
+}
+
+
+/**************service area************/
+
+
+.service-area{
+    background: #17c2a4;
+    padding: 60px 0;
+    overflow: hidden;
+    color: #ffffff;
+    text-align: center;
+}
+
+.service-header h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   
+}
+
+.service-header hr{
+    width: 80px;
+    border: 1px solid #14a58c;
+}
+
+.service-header p{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+.col-4{
+    width: 23%;
+    float: left;
+    overflow: hidden;
+    margin-left: 1%;
+}
+
+.servies{
+    margin-top: 50px;
+}
+.service-items img{
+    width: 90px;
+    height: 90px;
+}
+.service-items h3{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+
+/**************team area*****************/
+
+
+.team-area{
+    background: #e7f1f8;
+    overflow: hidden;
+    padding: 60px 0;
+    text-align: center;
+    color: #3c4761;
+}
+
+.header-team h2{
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-team hr{
+    width: 80px;
+    border: 1px solid #c8d9e5;
+}
+.teams{
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+
+.teams img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.teams h4{
+    color: #9ed9f1;
+}
+
+.team-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.team-menu ul li{
+    display: inline;
+    margin: 5px;
+}
+.team-menu ul li a i{
+    color: #ffffff;
+    font-size: 13px;
+    background: #bdd1df;
+    padding: 7px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    text-align: center;
+    transition-duration: .5s;
+}
+.team-menu ul li a:hover i{
+background: #3a5795;;
+}
+
+
+
+/**********skill-area"**********/
+
+
+.skill-area{
+    padding: 50px 0;
+    overflow: hidden;
+    text-align: center;
+    color: #3c4761;
+}
+
+.skill-area h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   
+}
+
+.skill-area h3{
+    font-size: 18px;
+    text-transform: uppercase;
+  
+   
+}
+
+.skill-items{
+
+    margin-top: 50px;
+}
+.skill-area hr{
+    width: 80px;
+    border: 1px solid #dfe8ed;
+}
+
+.skill-items{
+    width: 22%;
+    float: left;
+    overflow: hidden;
+    margin-right: 4%;
+}
+.skill-items:nth-child(2n){
+    margin-right: 0;
+}
+
+/*******************portfolio-area***************/
+
+.portfolio-area{
+    background: #ffdd99;
+    padding: 60px 0;
+    overflow: hidden;
+    text-align: center;
+    color: #393939;
+}
+.portfolio-header h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.portfolio-header hr{
+    width: 80px;
+    border:  1px solid #e5c37f;
+}
+
+.port-menu ul{
+
+    padding: 0;
+}
+
+
+.port-menu ul li{
+    display: inline;
+    list-style: none;
+    margin: 5px;
+}
+.port-menu ul li a{
+    font-size: 14px;
+    color:  #393939;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #ebc985;
+    padding: 7px 15px;
+    min-width: 45px;
+    display: inline;
+
+}
+
+
+.port-menu ul .active a,
+.port-menu ul li:hover a{
+    background: #ffffff;
+}
+
+
+.portfolio-items{
+    width: 47%;
+    float: left;
+    margin-right: 6%;
+}
+.portfolio-items:nth-child(2n){
+    margin-right: 0;
+}
+.portfolio-items img{
+    width: 100%;
+} 
+
+.portfolios{
+    margin-top: 50px;
+}
+
+.portfolios .btn{
+    background: #17c2a4;
+    border: 1px solid #14a58c;
+}
+
+.portfolio-items h4{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.portfolios .btn:hover{
+    background: #16a085;
+
+}
+
+
+
+
+
+
+/**************about-area*****************/
+.about-area{
+    background:#d74680 ;
+    padding: 50px 0;
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.about-headre h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.about-headre hr{
+    width: 80px;
+    border: 1px solid #b73c6d;
+}
+
+.testimonial .clients{
+    width: 47%;
+    float: left;
+    overflow: hidden;
+    margin-right: 6%;
+    margin-top: 80px;
+}
+
+.testimonial .clients:nth-child(2n){
+    margin-right: 0;
+}
+
+.client-thum img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.client-thum{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    margin-right: 5%;
+}
+
+.client-content{
+    width: 70%;
+    overflow: hidden;
+}
+
+.client-content p{
+    margin-top: 0;
+    font-style: italic;
+}
+
+
+
+
+
+/****************contact-area****************/
+
+
+
+.contact-area{
+    background: #3c5499;
+    overflow: hidden;
+    padding: 60px 0;
+    text-align: center;
+    color: #ffffff;
+}
+.header-contact h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header-contact hr{
+    width: 80px;
+    border:  1px solid #273a71
+}
+.contact-area .container{
+    width: 60%;
+}
+
+
+
+.contact-form input[type="text"]{
+    margin-right: 4%;
+    float: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    width: 48%;
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    background: #273a71;
+    color: #ffffff;
+    padding: 2%;
+    font-size: 16px;
+}
+
+.contact-form textarea{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: none;
+    margin:  20px 0;
+    background: #273a71;
+    color: #ffffff;
+    padding: 2%;
+    font-size: 16px;
+    min-height: 180px;
+}
+
+
+.contact-form .btn{
+    background: #30bae7;
+    border: 1px solid #299ec5;
+}
+
+.contact-form .btn:hover{
+    background: #0b8a74;
+}
+
+
+
+/************social-profiles***************/
+
+
+.footer-area{
+    background: #344b8e;
+    color: #ffffff;
+    overflow: hidden;
+    text-transform: capitalize;
+    text-align: center;
+}
+.social-profile ul{
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+
+.social-profiles ul li{
+    display: inline;
+    padding: 10px 20px;
+
+
+}
+
+.social-profiles ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-profiles ul li:hover a{
+    color: #30bae7;
+
+}
